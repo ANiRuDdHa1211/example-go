@@ -1,6 +1,9 @@
 package calculator
 
-import "errors"
+import (
+	"errors"
+	"fmt"
+)
 
 func Add(x, y int) (int, error) {
 	return x + y, nil
@@ -11,6 +14,7 @@ func Subtract(x, y int) (int, error) {
 }
 
 func Multiply(x, y int) (int, error) {
+	fmt.Println("hello there")
 	return x * y, nil
 }
 
