@@ -1,0 +1,2 @@
+# example-go
+codecov example 
