@@ -4,9 +4,7 @@
 
 
 [![codecov](https://codecov.io/gh/ANiRuDdHa1211/example-go/graph/badge.svg?token=6L7ZWBFBT4)](https://codecov.io/gh/ANiRuDdHa1211/example-go)
-<a href="https://codecov.io/gh/ANiRuDdHa1211/example-go" > 
- <img src="https://codecov.io/gh/ANiRuDdHa1211/example-go/graph/badge.svg?token=6L7ZWBFBT4"/> 
- </a>
+
 
 This is a personal example repository showing how Codecov can be integrated with a simple go project. It uses **GitHub Actions** CI/CD providers and **go** as the coverage provider.
 
