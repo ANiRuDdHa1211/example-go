@@ -12,10 +12,13 @@ jobs:
       - uses: actions/setup-go@v2
         with:
           go-version: '1.18'
-      - name: "Repository Meta"
-        uses: varunsridharan/action-repository-meta@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: "Repository Meta"
+      #   uses: varunsridharan/action-repository-meta@main
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update README.md
+        run: |
+          sed -i 's/<reponame>/'${{ github.event.repository.name }}'/' README.md
       - name: Run coverage
         run: go test -race -coverprofile=coverage.txt -covermode=atomic
       - name: Upload coverage to Codecov
