@@ -13,6 +13,3 @@ trial:
 
 This is a personal example repository showing how Codecov can be integrated with a simple go project. It uses **GitHub Actions** CI/CD providers and **go** as the coverage provider.
 
-
-
-
