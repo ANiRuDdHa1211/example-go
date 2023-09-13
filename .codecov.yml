@@ -1,3 +1,7 @@
 coverage:
-  threshold: 30
-  
+  status:
+    project:
+      default: # This can be anything, but it needs to exist as the name
+        # basic settings
+        target: auto
+        threshold: 30%
